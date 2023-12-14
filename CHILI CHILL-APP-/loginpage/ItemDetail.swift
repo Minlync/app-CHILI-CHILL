@@ -27,12 +27,13 @@ struct ItemDetail: View {
                 Image(item.mainImage)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 400, height: 335)
+                    .frame(width: 400, height: 340)
                     .padding(4)
                     .background(Color.white)
                     .font(.caption)
                     .foregroundColor(.white)
-                //                    .offset(x: -5, y: -5)
+                    .position(x:198,y: 72)
+                  
             }
             
             Text(item.description)
@@ -49,9 +50,7 @@ struct ItemDetail: View {
                             }
                         }
                     }
-                    
                 }
-                
                 
                 Section(header: Text("Select your drink").foregroundColor(Color.blue)) {
                     HStack {
@@ -80,14 +79,13 @@ struct ItemDetail: View {
                 }
                 
                 
-            } 
-            
+            }
             Button("Order This") {
                 order.add(item: item)
                 showingAlert = true
             }
             //            .buttonStyle(.borderedProminent）
-            .font(.title)
+            .font(.headline)
             .frame(width: 300, height: 15)
             .foregroundColor(.white)
             .padding()
@@ -96,8 +94,12 @@ struct ItemDetail: View {
             
             Spacer()
         }
+       
         .navigationTitle(item.name)
         .navigationBarTitleDisplayMode(.inline)
+        .onAppear {
+                  UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.white]
+              }
         .alert(isPresented: $showingAlert) {
             Alert(title: Text("Success"), message: Text("You have successfully added your food!"), dismissButton: .default(Text("OK")))
         }

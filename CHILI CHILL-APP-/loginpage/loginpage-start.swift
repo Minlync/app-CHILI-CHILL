@@ -16,7 +16,7 @@ struct loginhomepage: View {
                 Image("Chilichilllogo")
                     .resizable()
                     .scaledToFit()
-                   .frame(width: 268, height: 170)
+                   .frame(width: 368, height: 200)
                    .position(x: 200, y: 334)
                 
                     .foregroundColor(.accentColor)
@@ -24,8 +24,9 @@ struct loginhomepage: View {
 
                 NavigationLink (destination:MainView()){
                     Text("Start Your Chill")
+                        .font(.headline)
                         .foregroundColor(.white)
-                        .frame(maxWidth: .infinity, minHeight: 10)
+                        .frame(maxWidth: 300, minHeight: 10)
                         .padding()
                         .background(Color.red)
                         .cornerRadius(10)

@@ -21,8 +21,9 @@ struct Item2forhome: View {
 
             VStack(alignment: .leading) {
                 Text(item.name)
-                    .font(.headline)
-                    .foregroundColor(.gray)  // Set text color to black
+                    .font(.system(size: 16)) 
+                    .foregroundColor(.gray)
+                        // Set text color to black
 //                Text("$\(item.price)")
 //                    .foregroundColor(.black)  // Set text color to black
             }

@@ -12,16 +12,19 @@ struct MainView: View {
         TabView{
             Newhomepage()
                 .tabItem {
-                    Label("Home",systemImage: "house")
+                    Label("",systemImage: "house")
+                    .imageScale(.medium)
                     
                 }
             NewlistView()
                 .tabItem {
-                    Label("Menu",systemImage: "list.dash")
+                    Label("",systemImage: "list.dash")
+                    .imageScale(.medium)
                 }
            OrderView()
                 .tabItem {
-                    Label("Order",systemImage: "square.and.pencil")
+                    Label("",systemImage: "square.and.pencil")
+                    .imageScale(.medium)
                 }
         }
         .navigationBarBackButtonHidden(true)

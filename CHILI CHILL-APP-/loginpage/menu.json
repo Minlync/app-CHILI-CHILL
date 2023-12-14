@@ -7,8 +7,8 @@
                 "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
 				"name": "Sunshine Burger",
 				"price": 6,
-				"restrictions": ["S","H", "V"],
-				"description": "Place Hold"
+				"restrictions": ["S","H"],
+				"description": "Juicy spicy beef patty, melted cheese, and flavorful toppings create the ultimate cheeseburger delight."
 			},
 			{
                 "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
@@ -22,7 +22,7 @@
 				"name": "Spicy Wings",
 				"price": 5,
 				"restrictions": ["H","S"],
-				"description": "Is normal muesli too boring? Of course it is. That's why we serve power muesli – it's like regular muesli, except we put the word \"power\" in front of it so we can charge more."
+				"description": "Zesty wings with a fiery kick, promise a dance of flavors that'll spice up your taste buds!"
 			},
 			{
                 "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
@@ -42,24 +42,31 @@
 				"name": "Chicken Nuggets",
                 "price": 3,
 				"restrictions": ["S","G"],
-                "description": "placeholder)"
+                "description": "Dip into delight with our golden Chicken Nuggets—bite-sized happiness for the perfect snack or meal"
 			},
-            
+            {
+                "id": "AD419CE6-50CC-4132-BE8E-B92B9DFE4D02",
+                "name": "Beef Kebabx3",
+                "price": 12,
+                "restrictions": ["S","H"],
+                "description": "This trio of Beef Kebabs is a triple delight bound to brighten your day!"
+            },
 			
         {
             "id": "2BAD20C5-D007-4BBE-B074-8CF0F256A42F",
             "name": "Fry Fries",
             "price": 4,
-            "restrictions": ["S"],
-            "description": "If you're the kind of fun guy (sorry not sorry) that likes salami-filled Italian food with a twist, this is the perfect dish for you. The twist? We lied about the meat."
+            "restrictions": ["S","V"],
+            "description": "If you're a fun-loving foodie, dive into this:New York-style fry fries, adding an extra layer of fun!"
         },
         {
             "id": "759527CB-1064-4082-A527-F04698F9D18F",
             "name": "Chicken Popcorn",
             "price": 4,
             "restrictions": ["S", "G"],
-            "description": "It's a truth universally acknowledged that every restaurant is in want of a burger, and trust us: this thing is so tall you can't even get your mouth around it without dislocating your jaw."
+            "description": "Enjoy crispy and flavorful Chicken Popcorn for a tasty treat that satisfies your snack cravings"
         },
+        
         
         ]
 	},
@@ -73,35 +80,35 @@
 				"name": "Virgin Mojito",
                 "price": 5,
 				"restrictions": ["C"],
-				"description": "The mojito is a classic drink of rum, mint, lime, and soda, but without the rum. So, this is basically an expensive glass of Sprite. We might put an umbrella in it so you don't feel quite so scammed."
+				"description": "Mint, lime, soda—no rum. Pricey Sprite, but we'll toss in an umbrella, so you don't feel shortchanged"
 			},
 			{
                 "id": "FC201614-1418-4152-9469-087B27485D13",
 				"name": "Strawberry Cooler",
                 "price": 6,
 				"restrictions": ["C"],
-                "description": "Step 1: Blend some frozen strawberries. Step 3: Profit! If you're reading this it means you've figured out step 2 for yourself."
+                "description": "Blend frozen strawberries, and voila—profit! You've aced step 2. Cheers to fruity success!"
 			},
 			{
                 "id": "58CE3F3E-74E1-4C5F-A630-986B187788B5",
-				"name": "Powerhouse coffee",
+				"name": "Powerhouse Coffee",
                 "price": 3,
 				"restrictions": ["C"],
-				"description": "In the same way that brandy is distilled wine, this is distilled coffee. Yes, we literally boil coffee again and again to remove as much water as possible, leaving some black goopy stuff that is pretty much guaranteed to make your eyes pop."
+				"description": "Like brandy is distilled wine, this is distilled coffee. Boiled repeatedly, it's potent—guaranteed to make your eyes pop"
 			},
 			{
                 "id": "71B872F2-3B5D-46D0-9D98-E696B4AE30E4",
 				"name": "Mexican Mocha",
                 "price": 7,
-				"restrictions": [""],
+				"restrictions": ["C"],
 				"description": "What do you get if you mix spicy Mexican chocolate into coffee? I mean, the answer is pretty much in the name – we really ought to get a better marketing team."
 			},
 			{
                 "id": "DE58CEFF-7023-4B60-88CC-80C5B7BFB6EC",
 				"name": "Chrysanthemum Tea",
 				"price": 4,
-				"restrictions": [""],
-				"description": "This is tea made from chrysanthemum. No, we're not quite sure how that works either. Do we press the leaves? Is chrysanthemum even a plant? It sounds like some sort of wild animal. Maybe we milked it to make this drink."
+				"restrictions": ["C"],
+				"description": "Sip on chrysanthemum tea—the plant, not the wild animal. Not sure how it works; maybe we pressed leaves or milked it. Enjoy the mystery!"
 			},
 			
 		]

@@ -24,7 +24,9 @@ struct Random: View {
             Text(item.name)
                 .font(.title)
                 .padding()
-            
+            Text(item.description)
+                .font(.body)
+                .frame(width: 340, height: 100)
             Button(action: generateRandomFood) {
                 Text("Next One")
                     .font(.headline)
@@ -65,6 +67,7 @@ struct Random: View {
         imageName = imageNames.randomElement() ?? "surprise"
         // item:menu[0].items[Int.random(in: 0...3)]
         item = menu[Int.random(in: 0...2)].items[Int.random(in: 0...3)]
+//        if i just want random in first section so i justitem:menu[0].items[Int.random(in: 0...3)] use this code
         
     }
 }
