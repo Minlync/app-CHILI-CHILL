@@ -1,4 +1,4 @@
-** Project Introduction **
+**Project Introduction**
 
 CHILI CHILL is a funky, fun, and energetic fast-food brand that delights customers with a diverse array of food, snacks, and drinks. This entire project was independently completed by me. I meticulously designed and hand-drew their distinctive LOGO, creating various whimsical versions of our brand mascot to embody the brand's lively spirit.
 
