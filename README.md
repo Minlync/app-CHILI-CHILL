@@ -11,7 +11,7 @@ Figma Wireframe [figma](https://pages.github.com/).
 **Project Development Jrouney**
 This is a School project which i completed for NYU IMA Program Mobile App development class.
 The Wiki link below documented how i solved my problems and what quetions did I met during the entire design and development process.
-[Wiki]([https://pages.github.com/](https://github.com/molab-itp/content-2023-Fa/wiki/08-Evelyn-(Minglin)-Chen)https://github.com/molab-itp/content-2023-Fa/wiki/08-Evelyn-(Minglin)-Chen).
+Process [Wiki]([https://pages.github.com/](https://github.com/molab-itp/content-2023-Fa/wiki/08-Evelyn-(Minglin)-Chen)https://github.com/molab-itp/content-2023-Fa/wiki/08-Evelyn-(Minglin)-Chen).
 
 
 **Case Study**
