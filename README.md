@@ -3,6 +3,6 @@ CHILI CHILL is a funky, fun, and energetic fast-food brand that delights custome
 In terms of color, I selected light red as the primary brand color, embodying energy and dynamism. Complementing this, I incorporated blue as a secondary color, forming a visual contrast that conveys a sense of chill and relaxation. This color combination captures the essence of Chili Chill's playful and laid-back vibe, ensuring a memorable and enjoyable customer experience.
 
 The completed Figma wireframe: 
-Figma Wireframe [GitHub Pages](https://pages.github.com/).
+Figma Wireframe [figma](https://pages.github.com/).
 
 
