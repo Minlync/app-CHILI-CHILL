@@ -10,7 +10,8 @@ Figma Wireframe [figma](https://pages.github.com/).
 
 **Project Development Jrouney**
 This is a School project which i completed for NYU IMA Program Mobile App development class. 
-Instructor: ITP Profrssor [John Henry Thompson] (https://jht1493.net/johnhenrythompson/)
+Instructor: ITP Profrssor [John Henry Thompdon ](https://jht1493.net/johnhenrythompson/)
+
 
 The Wiki link below documented how i solved my problems and what quetions did I met during the entire design and development process.
 Process [Wiki](https://github.com/molab-itp/content-2023-Fa/wiki/08-Evelyn-(Minglin)-Chen)
